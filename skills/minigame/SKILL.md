@@ -1,6 +1,7 @@
-| name | minigame |
-|---|---|
-| description | 小游戏制作专家。帮助创建任意类型的 HTML5 2D/3D 小游戏，由用户提出需求，根据插件能力组合实现。支持 Canvas 2D、Three.js、Babylon.js、Phaser.js 等引擎。提供游戏循环、碰撞检测、粒子特效、音效、3D 场景、物理引擎、游戏叙事、UI 设计等全套能力。当用户提到制作小游戏、HTML5 游戏、网页游戏、2D/3D 游戏、Canvas 游戏、Three.js 游戏、互动游戏、游戏开发时使用。不限制游戏类型，用户想做什么就做什么。 |
+---
+name: minigame
+description: 小游戏制作专家。帮助创建任意类型的 HTML5 2D/3D 小游戏，由用户提出需求，根据插件能力组合实现。支持 Canvas 2D、Three.js、Babylon.js、Phaser.js 等引擎。提供游戏循环、碰撞检测、粒子特效、音效、3D 场景、物理引擎、游戏叙事、UI 设计等全套能力。当用户提到制作小游戏、HTML5 游戏、网页游戏、2D/3D 游戏、Canvas 游戏、Three.js 游戏、互动游戏、游戏开发时使用。不限制游戏类型，用户想做什么就做什么。
+---
 
 # 小游戏制作
 

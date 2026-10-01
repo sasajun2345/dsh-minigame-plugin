@@ -112,8 +112,12 @@ skills/minigame/
 ## 依赖
 
 - Node.js >= 20.19.0
-- DeepSeek Harness 开发者预览版
-- `@deepseek-ai/dsh-skill-filesystem` ^0.1.0-rc.6
+- DeepSeek Harness 0.2.x
+- peer：`@deepseek-ai/dsh-skill-filesystem` ^0.2.0-rc.2（由 DSH 运行时自带，不由 profile 单独安装）
+
+> **兼容性说明**
+> - 本插件不自带 skill-filesystem 副本。旧版把它写成 `dependencies: ^0.1.0-rc.6`，会在 profile 中安装一份 0.1.x 旧包，覆盖 DSH 本体随版本升级的内置实现，进而与 0.2.x 运行时冲突并被禁用；现改为 `peerDependencies`，统一由运行时提供。
+> - 技能元数据必须使用 YAML frontmatter（文件首行就是 `---`）。0.2.x 的 `parseFrontmatter` 对首行做硬校验，表格形式的元数据会被判为 `missing YAML frontmatter` 并静默忽略该技能。
 
 ## 许可
 

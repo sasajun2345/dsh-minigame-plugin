@@ -1,6 +1,6 @@
 {
   "name": "dsh-minigame-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "DeepSeek Harness 小游戏制作插件 — 帮助 AI 快速创建 HTML5 小游戏，支持 Canvas、Phaser.js 等引擎",
   "type": "module",
   "main": "index.js",
@@ -35,7 +35,10 @@
   "engines": {
     "node": ">=20.19.0"
   },
-  "dependencies": {
-    "@deepseek-ai/dsh-skill-filesystem": "^0.1.0-rc.6"
+  "peerDependencies": {
+    "@deepseek-ai/dsh-skill-filesystem": "^0.2.0-rc.2"
+  },
+  "devDependencies": {
+    "@deepseek-ai/dsh-skill-filesystem": "^0.2.0-rc.2"
   }
 }
